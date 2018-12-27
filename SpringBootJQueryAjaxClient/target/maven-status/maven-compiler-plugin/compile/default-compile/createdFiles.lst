@@ -1,0 +1,6 @@
+com\javasampleapproach\jqueryajax\controller\WebController.class
+com\javasampleapproach\jqueryajax\message\Response.class
+com\javasampleapproach\jqueryajax\model\Car.class
+com\javasampleapproach\jqueryajax\SpringBootJQueryAjaxClientApplication.class
+com\javasampleapproach\jqueryajax\controller\RestWebController.class
+com\javasampleapproach\jqueryajax\model\CarAccesory.class

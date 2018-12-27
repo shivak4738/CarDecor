@@ -1,0 +1,53 @@
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50%;
+}
+
+.search {
+	margin-bottom: 30px;
+}
+
+.items {
+	
+}
+
+.table{
+        width: 100%;
+        margin: 20px 0;
+        border-collapse: collapse;
+}
+.table, thead, tr, th{
+    border: 1px solid #cdcdcd;
+    padding:2px;
+    text-align:center inherit;
+    width:2px;
+}
+.table, th, td{
+    border: 1px solid #cdcdcd;
+    padding:2px;
+}
+.table th, table td{
+    padding: 5px;
+    text-align: left;
+    border: 2px solid black;
+}
+.list-group {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 10px;
+    border: 5px solid red;
+}
+
+[data-filter-item] {
+	padding: 15px;
+	background-color: #ccc;
+	border: 1px solid #fff;
+}
+
+.hidden {
+	display: none;
+}

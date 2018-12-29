@@ -2,9 +2,7 @@
  <head>
 	  <title>Spring Boot - AJAX POST GET Example</title>
 	  <meta charset="utf-8" />
-	  <meta name="viewport" content="width=device-width, initial-scale=1" />
-	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
- 
+	  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
 	  <!-- <link rel="stylesheet" href="niceCountryInput.css"/> -->
 <script src="https://code.jquery.com/jquery-1.12.4.min.js" 
         integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" 
@@ -14,18 +12,23 @@
 	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	  <script src="/js/search.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
       </head>
-<div container">
-	<div search">
-		<input type="search" placeholder="search" data-search />
+  <body>    
+<div class="container">
+	<div style="margin-bottom:20px; padding:10px; background-color:#336699; color:white;">
+		<input class="form-control" id="inputFilter" type="text" placeholder="Search.." />
 	</div>
-	<div items">
-		<div data-filter-item data-filter-name="apple">Apple</div>
-		<div data-filter-item data-filter-name=google">Google</div>
-		<div data-filter-item data-filter-name=microsoft">Microsoft</div>
-		<div data-filter-item data-filter-name=hp">HP</div>
-		<div data-filter-item data-filter-name=dell">Dell</div>
-		<div data-filter-item data-filter-name=samsung">Samsung</div>
-	</div>
+	<div class="carItems">
+		<ul>
+			<li>Swift</li>
+			<li>BMW</li>
+			<li>Benz</li>
+			<li>Duster</li>
+			<li>Breeza</li>
+			</ul>
+		</div>
+		
 </div>
+</body>
 </html>

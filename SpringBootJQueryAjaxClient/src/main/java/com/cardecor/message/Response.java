@@ -1,4 +1,4 @@
-package com.javasampleapproach.jqueryajax.message;
+package com.cardecor.message;
 
 public class Response {
 	private String status;

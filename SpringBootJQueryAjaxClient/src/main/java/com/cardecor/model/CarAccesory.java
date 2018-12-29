@@ -1,4 +1,4 @@
-package com.javasampleapproach.jqueryajax.model;
+package com.cardecor.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -9,7 +9,6 @@ public class CarAccesory {
 	private String accessoryName;
 	private Boolean isAccessoryAvailable;
 	private Long quantityAvailable;
-	private Long totalQuantity;
 	private Double price;
 	public Long getCarAccessoryId() {
 		return carAccessoryId;
@@ -35,12 +34,7 @@ public class CarAccesory {
 	public void setQuantityAvailable(Long quantityAvailable) {
 		this.quantityAvailable = quantityAvailable;
 	}
-	public Long getTotalQuantity() {
-		return totalQuantity;
-	}
-	public void setTotalQuantity(Long totalQuantity) {
-		this.totalQuantity = totalQuantity;
-	}
+	
 	public Double getPrice() {
 		return price;
 	}

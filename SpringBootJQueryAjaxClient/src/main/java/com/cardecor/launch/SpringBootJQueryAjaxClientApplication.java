@@ -1,4 +1,4 @@
-package com.javasampleapproach.jqueryajax;
+package com.cardecor.launch;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

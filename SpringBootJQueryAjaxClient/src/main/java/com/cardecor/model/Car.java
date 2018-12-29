@@ -1,4 +1,4 @@
-package com.javasampleapproach.jqueryajax.model;
+package com.cardecor.model;
 
 import java.util.List;
 
@@ -7,6 +7,12 @@ public class Car {
     private List<CarAccesory> carAccessory;
      
     public Car(){}
+
+	public Car(String carName, List<CarAccesory> carAccessory) {
+		super();
+		this.carName = carName;
+		this.carAccessory = carAccessory;
+	}
 
 	public String getCarName() {
 		return carName;
